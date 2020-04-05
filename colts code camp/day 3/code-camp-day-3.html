@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Tables</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    td,
+    tr,
+    th{
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <h1>Tables !</h1>
+    <table>
+        <caption>The Caption</caption>
+        <thead>
+            <tr>
+                <th colspan="2">one</th>
+                <th colspan="2">two</th>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <th>Event</th>
+                <th>Host</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January 6</td>
+                <td>76th Golden Globe Awards</td>
+                <td>Hollywood Foreign Press Association</td>
+                <td>Beverly Hills, California, U.S</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>The Footer</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
